@@ -1,0 +1,7 @@
+debian/mauna-cursor-themes/
+debian/.debhelper/
+debian/files
+debian/debhelper-build-stamp
+debian/mauna-cursor-themes.postinst.debhelper
+debian/mauna-cursor-themes.postrm.debhelper
+debian/mauna-cursor-themes.substvars

@@ -1,0 +1,31 @@
+#!/bin/sh
+# prerm script for mauna-cursor-themes
+#
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    remove|deconfigure|failed-upgrade)
+
+        update-alternatives --remove x-cursor-theme /usr/share/icons/Bibata-Modern-Classic/cursor.theme
+        update-alternatives --remove x-cursor-theme /usr/share/icons/Bibata-Modern-Ice/cursor.theme
+        update-alternatives --remove x-cursor-theme /usr/share/icons/Qogir/cursor.theme
+        update-alternatives --remove x-cursor-theme /usr/share/icons/Qogir-Dark/cursor.theme
+        update-alternatives --remove x-cursor-theme /usr/share/icons/XCursor-Pro-Dark/cursor.theme
+        update-alternatives --remove x-cursor-theme /usr/share/icons/XCursor-Pro-Light/cursor.theme
+
+    ;;
+
+    upgrade)
+    ;;
+
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
