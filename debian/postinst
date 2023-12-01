@@ -9,19 +9,11 @@ case "$1" in
 
     update-alternatives \
         --install /usr/share/icons/default/index.theme x-cursor-theme \
-        /usr/share/icons/Bibata-Modern-Classic/cursor.theme 105
+        /usr/share/icons/Bibata-Modern-Classic/cursor.theme 110
 
     update-alternatives \
         --install /usr/share/icons/default/index.theme x-cursor-theme \
         /usr/share/icons/Bibata-Modern-Ice/cursor.theme 105
-
-    update-alternatives \
-        --install /usr/share/icons/default/index.theme x-cursor-theme \
-        /usr/share/icons/Qogir/cursor.theme 105
-
-    update-alternatives \
-        --install /usr/share/icons/default/index.theme x-cursor-theme \
-        /usr/share/icons/Qogir-Dark/cursor.theme 110
 
     update-alternatives \
         --install /usr/share/icons/default/index.theme x-cursor-theme \

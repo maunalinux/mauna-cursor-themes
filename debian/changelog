@@ -1,3 +1,10 @@
+mauna-cursor-themes (1.0.1) mauna; urgency=medium
+
+  * New upstream version
+  * Qogir cursors removed
+
+ -- Mauna Linux <dev@maunalinux.top>  Sun, 12 Nov 2023 19:25:13 -0300
+
 mauna-cursor-themes (1.0.0) mauna; urgency=medium
 
   * Initial Package Release for Mauna Linux
